@@ -1,8 +1,8 @@
 {
     "fileName": "LumynLabs.json",
     "name": "LumynLabs",
-    "version": "2025.2.0",
-    "frcYear": "2025",
+    "version": "2026.0.0-beta-1",
+    "frcYear": "2026beta",
     "uuid": "eebd34fc-a6d3-48a2-a286-ac1cec59ab89",
     "mavenUrls": [
         "https://packages.lumynlabs.com/repo"
@@ -12,14 +12,29 @@
         {
             "groupId": "com.lumynlabs.frc",
             "artifactId": "LumynLabs-java",
-            "version": "2025.2.0"
+            "version": "2026.0.0-beta-1"
         }
     ],
     "jniDependencies": [
         {
             "groupId": "com.lumynlabs.frc",
             "artifactId": "LumynLabs-driver",
-            "version": "2025.2.0",
+            "version": "2026.0.0-beta-1",
+            "skipInvalidPlatforms": true,
+            "isJar": false,
+            "validPlatforms": [
+                "windowsx86-64",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "com.lumynlabs.frc",
+            "artifactId": "LumynLabs-common",
+            "version": "2026.0.0-beta-1",
             "skipInvalidPlatforms": true,
             "isJar": false,
             "validPlatforms": [
@@ -36,10 +51,10 @@
         {
             "groupId": "com.lumynlabs.frc",
             "artifactId": "LumynLabs-cpp",
-            "version": "2025.2.0",
+            "version": "2026.0.0-beta-1",
             "libName": "Lumyn",
             "headerClassifier": "headers",
-            "sharedLibrary": false,
+            "sharedLibrary": true,
             "skipInvalidPlatforms": true,
             "binaryPlatforms": [
                 "windowsx86-64",
@@ -53,10 +68,10 @@
         {
             "groupId": "com.lumynlabs.frc",
             "artifactId": "LumynLabs-driver",
-            "version": "2025.2.0",
+            "version": "2026.0.0-beta-1",
             "libName": "LumynDriver",
             "headerClassifier": "headers",
-            "sharedLibrary": false,
+            "sharedLibrary": true,
             "skipInvalidPlatforms": true,
             "binaryPlatforms": [
                 "windowsx86-64",
@@ -64,6 +79,51 @@
                 "linuxx86-64",
                 "linuxathena",
                 "linuxarm32",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "com.lumynlabs.frc",
+            "artifactId": "LumynLabs-common",
+            "version": "2026.0.0-beta-1",
+            "libName": "LumynCommon",
+            "headerClassifier": "headers",
+            "sharedLibrary": true,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "edu.wpi.first.thirdparty.imguiSuite",
+            "artifactId": "imguiSuite-cpp",
+            "version": "2026.+",
+            "libName": "imguiSuite",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "linuxx86-64",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "edu.wpi.first.wpigui",
+            "artifactId": "wpigui-cpp",
+            "version": "2026.+",
+            "libName": "wpigui", 
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "linuxx86-64", 
                 "osxuniversal"
             ]
         }
