@@ -3,11 +3,11 @@
   <groupId>com.lumynlabs.frc</groupId>
   <artifactId>LumynLabs-java</artifactId>
   <versioning>
-    <latest>2026.1.2</latest>
-    <release>2026.1.2</release>
+    <latest>2026.2.0</latest>
+    <release>2026.2.0</release>
     <versions>
-      <version>2026.1.2</version>
+      <version>2026.2.0</version>
     </versions>
-    <lastUpdated>20260205095158</lastUpdated>
+    <lastUpdated>20260317073711</lastUpdated>
   </versioning>
 </metadata>
